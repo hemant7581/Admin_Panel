@@ -4,7 +4,7 @@ import Header from './components/Header';
 import Graphs from './components/Graphs';
 import AdminPanel from './components/AdminPanel';
 import Calender from './components/Calender';
-// import Calender from './components/Calender';
+import ProductFilterList from './components/ProductFilterList';
 
 function App() {
   return (
@@ -49,6 +49,7 @@ function App() {
             <Calender />
            </div>
         
+        <ProductFilterList/>
         </div>
       </div>
     </div>
